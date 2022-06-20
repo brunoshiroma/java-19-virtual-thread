@@ -1,0 +1,7 @@
+{
+  "image": "openjdk:19-jdk-oraclelinux7",
+  "extensions": [
+    "vscjava.vscode-java-pack"
+  ],
+  "postCreateCommand": "yum update && yum install make -y"
+}
